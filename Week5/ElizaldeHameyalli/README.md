@@ -133,6 +133,8 @@ pastelChoco.peso = 2.5)
 
 Fuente: [Programación orientada a protocolos, la evolución en Swift 2](https://applecoding.com/analisis/programacion-orientada-protocolos-evolucion-swift-2)
 
+Protocolos: Le da funcionalidad a una estructura.
+
 #### Swift:
 
 ** Los ejercicions háganlos en un Swift Playground o en http://online.swiftplayground.run/ si no tienes Mac y guarda el archivo con extensión **.swift\*\*
