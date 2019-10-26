@@ -55,7 +55,83 @@ Fuente: [Código Fácilito](https://codigofacilito.com/articulos/mvc-model-view-
 
 #### 3. Diferencias entre una clase y una estructura en Swift.
 
-4. Investiga a qué se refiere que Swift sea un lenguaje orientado a protocolos.
+Las clases _(class)_ y estructuras _(struct)_ son similares.
+
+Las **clases** hacen referencia un objeto, por lo que cuando se pasa una clase alrededor del programa se comparte y modifica el objeto al que se hizo referencia.  
+Cuando pasa una **estructura** [o enumeración], lo que se pasa es una copia de la estructura. Entonces las modificaciones a las estructuras no se comparten.
+
+**¿Cuáles son los factores comunes entre struct y class?**
+
+- Definir propiedades para almacenar valores.
+- Definir métodos para proporcionar funcionalidad.
+- Definir subíndices para proporcionar acceso a sus valores - utilizando la sintaxis de subíndice
+- Definir inicializadores para configurar su estado inicial
+- Extender para ampliar su funcionalidad más allá de una - implementación predeterminada
+- Cumple con los protocolos para proporcionar una - funcionalidad estándar de cierto tipo.
+
+**Las clases tienen capacidades adicionales que las estructuras no tienen:**
+
+- La herencia permite que una clase herede las - características de otra. Struct o enum no pueden hacer - herencia. Pero pueden confirmar los protocolos.
+- La conversión de tipos le permite verificar e - interpretar el tipo de una instancia de clase en tiempo - de ejecución.
+- Los desinicializadores permiten que una instancia de - una clase libere los recursos que ha asignado.
+- El recuento de referencias permite más de una - referencia a una instancia de clase.
+
+Fuente: [Difference between a struct and a class in Swift.](https://medium.com/@abhimuralidharan/difference-between-a-struct-and-a-class-in-swift-53e08df73714)
+
+## **Structs** 🧱
+
+Similares a las clases, usan la palabra reservada **Struct**
+
+Las estructuras hacen una copia del elemento para poder modificar.
+
+```
+struct PastelStruct{
+    var nombre : String
+    var peso : Float
+    var sabor : String
+}
+```
+
+## **Classes**: 📑
+
+Se crean usando la palabra reservada Class acompañado del nombre y requiere un método inicializador.
+
+Las clases hacen referencia al elemento.
+
+```
+class Pastel{
+var nombre : String
+var peso : Float
+var sabor : String
+init (nombre:String, peso:Float, sabor:String){
+self.nombre = nombre
+self.peso = peso
+self.sabor = sabor }
+}
+```
+
+Para crear un objeto de esa clase:
+
+```
+var pastelChoco = Pastel(nombre:"Choco", peso:1.0, sabor:"Chocolate")
+```
+
+Y accedemos al objeto mediante
+`print(pastelChoco.sabor)`
+
+Se puede modificar
+
+```
+pastelChoco.peso = 2.5)
+```
+
+4. #### Swift, un lenguaje orientado a protocolos.
+
+**Protocolos**
+
+¿Qué es un protocolo? Son plantillas de especificación que definimos para crear unas reglas determinadas que queremos que se cumplan en una implementación
+
+Fuente: [Programación orientada a protocolos, la evolución en Swift 2](https://applecoding.com/analisis/programacion-orientada-protocolos-evolucion-swift-2)
 
 #### Swift:
 
