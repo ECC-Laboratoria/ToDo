@@ -14,7 +14,7 @@
 
    El Navigation Controller tiene por defecto un Table View Controller.
 
-![NavigationController](C:\Users\DELL\Desktop\Swift_Laboratoria\Week 6 Pretrabajo\Imagenes\NavigationController.png)
+![NavigationController](.\Imagenes\NavigationController.png)
 
 2. Cambiar el título del *Root View Controller*, agregado por Default, por **Table View Controller**.
 
