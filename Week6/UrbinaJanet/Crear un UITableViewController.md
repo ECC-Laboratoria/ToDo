@@ -14,7 +14,7 @@
 
    El Navigation Controller tiene por defecto un Table View Controller.
 
-![NavigationController](Week6/UrbinaJanet/Imagenes/NavigationController.png)
+![NavigationController](https://raw.githubusercontent.com/jaurinu/ToDo/master/Week6/UrbinaJanet/Imagenes/NavigationController.png)
 
 2. Cambiar el título del *Root View Controller*, agregado por Default, por **Table View Controller**.
 
@@ -39,7 +39,7 @@ class EmojiTableViewController: UITableViewController {
 
 6. Conectar en el Main.storyboard, el TableViewController con la clase creada dentro del inspector de identidad.
 
-![Atributos-de-clase](C:\Users\DELL\Desktop\Swift_Laboratoria\Week 6 Pretrabajo\Imagenes\Atributos-de-clase.png)
+![Atributos-de-clase](https://raw.githubusercontent.com/jaurinu/ToDo/master/Week6/UrbinaJanet/Imagenes/Atributos-de-clase.png)
 
 ------------------------------------------------------------------------------------------
 
@@ -141,7 +141,7 @@ Para especificar la celda se siguen los siguientes pasos:
 
    
 
-   ![TableViewCell](C:\Users\DELL\Desktop\Swift_Laboratoria\Week 6 Pretrabajo\Imagenes\TableViewCell.png)
+   ![TableViewCell](https://raw.githubusercontent.com/jaurinu/ToDo/master/Week6/UrbinaJanet/Imagenes/TableViewCell.png)
 
    -------------------------------------------------------------------------------
 
