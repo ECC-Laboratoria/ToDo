@@ -19,6 +19,7 @@ class ToDoTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         toDo = ToDo.generateToDos()
+        
         navigationItem.leftBarButtonItem = editButtonItem
     }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -58,10 +59,43 @@ class ToDoTableViewController: UITableViewController {
        
     }
     
-    @IBAction func regresaAVistaPrincipal(_ segue: UIStoryboardSegue) {
-        
+    @IBAction func regresaAVistaPrincipal(_ unwindSegue: UIStoryboardSegue) {
+        if unwindSegue.identifier == "SaveUnwind" {
+            let sourceVC = unwindSegue.source as! ToDoViewController
+            guard let task = sourceVC.ToDoTextField else {return}
+//
+//            if let selectedIndexPath = tableView.indexPathForSelectedRow {
+//                toDo[selectedIndexPath.row] = task
+//                tableView.reloadRows(at: [selectedIndexPath], with: .automatic)
+//            }
+//            else {
+//                let newIndexPath = IndexPath(row: toDo.count, section: 0)
+//                toDo.append(task)
+//                tableView.insertRows(at: [newIndexPath], with: .automatic)
+//            }
+//       
+        }
     }
     
     
 }
 
+
+
+
+
+
+
+//if unwindSegue.identifier == "unwindToEmojiTableVC" {
+//    let sourceVC = unwindSegue.source as! AddEditTableViewController
+//    guard let emoji = sourceVC.emoji else {return}
+//
+//    if let selectedIndexPath = tableView.indexPathForSelectedRow {
+//        emojis[selectedIndexPath.row] = emoji
+//        tableView.reloadRows(at: [selectedIndexPath], with: .automatic)
+//    }
+//    else {
+//        let newIndexPath = IndexPath(row: emojis.count, section: 0)
+//        emojis.append(emoji)
+//        tableView.insertRows(at: [newIndexPath], with: .automatic)
+//}

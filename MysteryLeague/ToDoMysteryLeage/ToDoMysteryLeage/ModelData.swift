@@ -25,5 +25,12 @@ struct ToDo {
             ToDo(title: "Tercer ToDo", isCompleted: false, dueDate: Date(), note: "some notes")
         ]
     }
+    static let dueDateFormatter: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.dateStyle = .short
+        formatter.timeStyle = .short
+        return formatter
+        
+    }()
 }
 

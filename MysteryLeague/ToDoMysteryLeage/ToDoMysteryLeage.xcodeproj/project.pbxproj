@@ -13,7 +13,7 @@
 		CD32A69F236DFFD1006C3569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD32A69D236DFFD1006C3569 /* LaunchScreen.storyboard */; };
 		CD32A6A7236E0118006C3569 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD32A6A6236E0118006C3569 /* ToDoTableViewController.swift */; };
 		CD32A6A9236E03F0006C3569 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD32A6A8236E03F0006C3569 /* ModelData.swift */; };
-		CD32A6AB236E169C006C3569 /* ShowTaskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD32A6AA236E169C006C3569 /* ShowTaskTableViewController.swift */; };
+		CD932D6C237736A500790793 /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD932D6B237736A500790793 /* ToDoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		CD32A6A0236DFFD1006C3569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD32A6A6236E0118006C3569 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		CD32A6A8236E03F0006C3569 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
-		CD32A6AA236E169C006C3569 /* ShowTaskTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowTaskTableViewController.swift; sourceTree = "<group>"; };
+		CD932D6B237736A500790793 /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 				CD32A6A6236E0118006C3569 /* ToDoTableViewController.swift */,
 				CD32A6A8236E03F0006C3569 /* ModelData.swift */,
 				CD32A698236DFFCF006C3569 /* Main.storyboard */,
-				CD32A6AA236E169C006C3569 /* ShowTaskTableViewController.swift */,
+				CD932D6B237736A500790793 /* ToDoViewController.swift */,
 				CD32A69B236DFFD1006C3569 /* Assets.xcassets */,
 				CD32A69D236DFFD1006C3569 /* LaunchScreen.storyboard */,
 				CD32A6A0236DFFD1006C3569 /* Info.plist */,
@@ -141,10 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD932D6C237736A500790793 /* ToDoViewController.swift in Sources */,
 				CD32A6A9236E03F0006C3569 /* ModelData.swift in Sources */,
 				CD32A6A7236E0118006C3569 /* ToDoTableViewController.swift in Sources */,
 				CD32A695236DFFCF006C3569 /* AppDelegate.swift in Sources */,
-				CD32A6AB236E169C006C3569 /* ShowTaskTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
