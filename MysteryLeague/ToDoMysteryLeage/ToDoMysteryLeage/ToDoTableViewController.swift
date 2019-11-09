@@ -80,22 +80,3 @@ class ToDoTableViewController: UITableViewController {
     
 }
 
-
-
-
-
-
-
-//if unwindSegue.identifier == "unwindToEmojiTableVC" {
-//    let sourceVC = unwindSegue.source as! AddEditTableViewController
-//    guard let emoji = sourceVC.emoji else {return}
-//
-//    if let selectedIndexPath = tableView.indexPathForSelectedRow {
-//        emojis[selectedIndexPath.row] = emoji
-//        tableView.reloadRows(at: [selectedIndexPath], with: .automatic)
-//    }
-//    else {
-//        let newIndexPath = IndexPath(row: emojis.count, section: 0)
-//        emojis.append(emoji)
-//        tableView.insertRows(at: [newIndexPath], with: .automatic)
-//}
