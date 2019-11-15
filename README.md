@@ -4,7 +4,9 @@
 
 2. [Week 6](https://github.com/ECC-Laboratoria/ToDo/tree/master/Week6)
 
-   
+3. [Week 7](https://github.com/ECC-Laboratoria/ToDo/tree/master/Week7)
+
+    
 
 ---
 
